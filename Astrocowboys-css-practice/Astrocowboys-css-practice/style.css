@@ -1,0 +1,311 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/header_background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  text-align: :center;
+}
+
+.button_wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.header button {
+  background-color: transparent;
+  color: white;
+  width: 250px;
+  height: 65px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.header button:hover {
+  background-color: black;
+  color: #ffeb3b;
+  border: none;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  color: yellow;
+  font-size: 26px;
+}
+.fa,
+.fas:hover{
+  font-weight: 1500;
+  font-size: 35px;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  font-weight: bold;
+}
+
+.header h2 {
+  text-transform: uppercase;
+  color: #ffeb3b;
+  text-align: center;
+}
+
+.section_first {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+}
+
+button:hover {
+  background: #fff4b7;
+  text-decoration: none;
+}
+
+.square {
+  height: 300px;
+  width: 320px;
+  border-radius: 3px;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 15px -4px rgba(112, 108, 112, 1);
+  -moz-box-shadow: 0px 0px 15px -4px rgba(112, 108, 112, 1);
+  box-shadow: 0px 0px 15px -4px rgba(112, 108, 112, 1);
+  margin-top: 70px;
+  background-color: #ffffff;
+}
+
+.backie {
+  background-color: #f6f9ff;
+  padding: 50px 0 50px 0;
+}
+
+.backie h2 {
+  text-align: center;
+}
+
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #ffeb3b;
+  position: relative;
+  margin-left: 125px;
+  margin-top: -40px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+}
+
+.circle img {
+  width: 45px;
+  margin-top: 10px;
+}
+
+.square h4 {
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.cards_section {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.galaxy {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/galaxy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 720px;
+}
+
+.team {
+  text-align: center;
+  color: white;
+  padding: 80px 0 40px 0;
+}
+
+.team p {
+  color: white;
+}
+
+.quote p {
+  color: #ffff00;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.rectangle {
+  height: 180px;
+  width: 370px;
+  padding-top: 20px;
+  margin-top: 40px;
+  background: #45484d;
+  background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.9) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.image-placing img {
+  height: 180px;
+  width: 140px;
+  display: block;
+  margin-top: -20px;
+  margin-left: -0.5px;
+}
+
+.astronauts {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  margin-top: -145px;
+  font-weight: bolder;
+}
+
+#send_message {
+  background-color: black;
+  color: yellow;
+  font-size: 14px;
+  padding: 10px;
+  width: 50%;
+}
+
+#send_message:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.profiles {
+  background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.9) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.9) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.9) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  text-align: left;
+}
+
+.information p {
+  color: white;
+  text-align: left;
+  padding-left: 180px;
+}
+
+#contact {
+  background-color: white;
+}
+
+footer {
+  background-color: black;
+  padding: 20px 0 20px 0;
+}
+
+footer p {
+  font-size: 10px;
+  color: white;
+}
+
+footer .fa-rocket {
+  font-size: 16px;
+  color: yellow;
+  margin: 0 10px 0 10px;
+}
+
+.flip-in-hor-bottom {
+  -webkit-animation: flip-in-hor-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: flip-in-hor-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+    transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+    transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (min-width: 320px) and (max-width: 790px) {
+  h1 h2 {
+    padding-bottom: 14px;
+    font-size: 14px;
+  }
+  .circle {
+    height: 75px;
+    width: 50%;
+    border-radius: 6px;
+    background-color: #f4ec7a;
+    margin:-40px 24%;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+  }
+  .features {
+    width: 40px;
+    text-align: center;
+  }
+
+  .square {
+    width: 100%;
+    height: 290px;
+    margin:0;
+    margin-top:60px;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+  }
+
+  .rectangle{
+    width:100%;
+  }
+
+}
